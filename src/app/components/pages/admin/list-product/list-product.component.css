@@ -1,0 +1,21 @@
+main {
+  float: right;
+  width: 77%;
+  margin-top: 60px;
+}
+button {
+  border-radius: 3px;
+}
+tr,
+th,
+td {
+  text-align: center;
+
+  th {
+    font-size: 18px;
+    border-top: 1px solid rgb(228, 228, 228);
+  }
+  td {
+    font-size: 16px;
+  }
+}

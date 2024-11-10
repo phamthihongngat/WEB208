@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  box-sizing: border-box;
+  margin: auto;
+}
+main {
+  form {
+    margin-top: 80px;
+    width: 30%;
+    input,
+    button,
+    textarea {
+      margin-top: 12px;
+      outline: none;
+    }
+  }
+}

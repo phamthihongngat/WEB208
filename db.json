@@ -1,0 +1,94 @@
+{
+  "products": [
+    {
+      "name": "Sản phẩm update",
+      "price": 350,
+      "imageUrl": "https://picsum.photos/100/100",
+      "oldPrice": 370,
+      "in_stock": false,
+      "description": "Mô tả update",
+      "id": 1
+    },
+    {
+      "name": "Smartphone iPhone 13 Pro",
+      "price": 28000000,
+      "imageUrl": "https://picsum.photos/100/100",
+      "oldPrice": 30000000,
+      "in_stock": true,
+      "description": "iPhone 13 Pro với màn hình Super Retina XDR 6.1 inch, camera 12MP.",
+      "id": 2
+    },
+    {
+      "name": "Tai nghe Bluetooth AirPods Pro",
+      "price": 5000000,
+      "imageUrl": "https://picsum.photos/100/100",
+      "oldPrice": 5500000,
+      "in_stock": true,
+      "description": "Tai nghe không dây Apple AirPods Pro với khả năng chống ồn chủ động.",
+      "id": 3
+    },
+    {
+      "name": "Bàn phím cơ Razer BlackWidow V3",
+      "price": 4000000,
+      "imageUrl": "https://picsum.photos/100/100",
+      "oldPrice": 4500000,
+      "in_stock": false,
+      "description": "Bàn phím cơ Razer BlackWidow V3 với switch cơ học Razer Green.",
+      "id": 4
+    },
+    {
+      "name": "Chuột gaming SteelSeries Rival 600",
+      "price": 2000000,
+      "imageUrl": "https://picsum.photos/100/100",
+      "oldPrice": 2300000,
+      "in_stock": true,
+      "description": "Chuột gaming SteelSeries Rival 600 với hệ thống cảm biến kép TrueMove3+.",
+      "id": 5
+    },
+    {
+      "name": "Màn hình Samsung Odyssey G7",
+      "price": 14000000,
+      "imageUrl": "https://picsum.photos/100/100",
+      "oldPrice": 15000000,
+      "in_stock": false,
+      "description": "Màn hình cong Samsung Odyssey G7 27 inch, độ phân giải QHD, tần số quét 240Hz.",
+      "id": 6
+    },
+    {
+      "name": "SSD Samsung 970 EVO Plus 1TB",
+      "price": 3000000,
+      "imageUrl": "https://picsum.photos/100/100",
+      "oldPrice": 3500000,
+      "in_stock": true,
+      "description": "SSD NVMe Samsung 970 EVO Plus dung lượng 1TB, tốc độ đọc ghi cực nhanh.",
+      "id": 7
+    },
+    {
+      "id": 8,
+      "name": "Loa Soundbar Sony HT-G700",
+      "price": 7000000,
+      "oldPrice": 7500000,
+      "imageUrl": "https://picsum.photos/100/100",
+      "description": "Loa Soundbar Sony HT-G700 với âm thanh vòm Dolby Atmos, kết nối không dây.",
+      "in_stock": false
+    },
+    {
+      "id": 9,
+      "name": "Máy ảnh Sony Alpha A6400",
+      "price": 22000000,
+      "oldPrice": 24000000,
+      "imageUrl": "https://picsum.photos/100/100",
+      "description": "Máy ảnh Sony Alpha A6400 với cảm biến APS-C 24.2MP, quay video 4K.",
+      "in_stock": true
+    },
+    {
+      "name": "sản phẩm mới ",
+      "price": 1000,
+      "imageUrl": "https://picsum.photos/100/100",
+      "oldPrice": 2000,
+      "in_stock": false,
+      "description": "Sản phẩm mới",
+      "id": 10
+    }
+  ]
+}

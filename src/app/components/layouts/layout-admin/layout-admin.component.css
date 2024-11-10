@@ -1,0 +1,81 @@
+header {
+  background-color: #f3f6ff;
+  width: 77%;
+  float: right;
+  display: flex;
+  justify-content: space-between;
+  height: auto;
+  padding: 10px 0px;
+  .thongtin {
+    display: flex;
+  }
+}
+.timkiem {
+  border: 1px solid rgb(203, 203, 203);
+  border-radius: 8px;
+  margin-left: 32px;
+}
+
+.timkiem > input {
+  outline: none;
+  background-color: #f3f6ff;
+  border: none;
+  width: 320px;
+  height: 40px;
+  font-size: smaller;
+}
+.timkiem > button {
+  background-color: #f3f6ff;
+  border: none;
+  height: 50px;
+}
+aside {
+  height: 1500px;
+  width: 23%;
+  float: left;
+  background-color: #172e50;
+}
+a {
+  text-decoration: none;
+  color: white;
+  font-size: small;
+}
+.main-menu {
+  list-style: none;
+  margin-top: 50px;
+  padding-left: 28px;
+}
+.logo {
+  margin-right: 8px;
+}
+.main-menu > li {
+  position: relative;
+}
+.main-menu > li > a {
+  margin-top: 4px;
+  padding: 4px 12px;
+}
+.main-menu > li > a:hover {
+  background-color: #0a121f;
+  border-radius: 3px;
+}
+.main-menu li:hover > ul.menu-con {
+  display: block;
+}
+.menu-con {
+  position: absolute;
+  padding: 10px 0px;
+  list-style: none;
+  margin-left: 38px;
+  display: none;
+}
+.menu-con > li > a {
+  padding: 4px 12px;
+}
+.menu-con > li {
+  padding-top: 8px;
+}
+.menu-con > li > a:hover {
+  background-color: #0a121f;
+  border-radius: 3px;
+}

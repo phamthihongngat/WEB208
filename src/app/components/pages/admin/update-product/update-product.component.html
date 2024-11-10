@@ -1,0 +1,78 @@
+<main class="bg-blue-100 px-10 py-12">
+  <form
+    [formGroup]="productForm"
+    (ngSubmit)="onHandleSubmit()"
+    class="row rounded bg-white shadow-lg px-8 py-8"
+  >
+    <h4 class="text-center text-xl font-semibold pb-3">Sửa sản phẩm</h4>
+    <input
+      type="text"
+      class="block w-full rounded-md border-0 py-1.5 pl-4 pr-20 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-200 sm:text-xs sm:leading-6"
+      placeholder="Tên sản phẩm"
+      formControlName="name"
+    />
+    <input
+      type="text"
+      class="block w-full rounded-md border-0 py-1.5 pl-4 pr-20 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-200 sm:text-xs sm:leading-6"
+      placeholder="Ảnh sản phẩm"
+      formControlName="imageUrl"
+    />
+    <input
+      type="number"
+      placeholder="Giá sản phẩm"
+      class="block w-full rounded-md border-0 py-1.5 pl-4 pr-4 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-200 sm:text-xs sm:leading-6"
+      formControlName="price"
+    />
+    <input
+      type="number"
+      placeholder="Giá cũ sản phẩm"
+      class="block w-full rounded-md border-0 py-1.5 pl-4 pr-4 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-200 sm:text-xs sm:leading-6"
+      formControlName="oldPrice"
+    />
+    <textarea
+      placeholder="Mô tả"
+      class="block w-full rounded-md border-0 py-1.5 pl-4 pr-4 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-200 sm:text-xs sm:leading-6"
+      formControlName="description"
+    ></textarea>
+
+    <div
+      class="block w-full rounded-md border-0 py-1.5 pl-4 pr-4 mt-2 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-200 sm:text-xs sm:leading-6"
+    >
+      <span
+        style="
+          font-size: 14px;
+          margin-top: 12px;
+          padding: 0px;
+          font-weight: 400;
+        "
+        >Trạng thái:</span
+      >
+      <div style="display: flex; padding: 0px">
+        <div style="margin: 0px 4px">
+          <input
+            type="radio"
+            id=""
+            class="mr-2"
+            formControlName="in_stock"
+            [value]="true"
+          />
+          <label for="" style="font-size: smaller">Còn hàng</label>
+        </div>
+        <div>
+          <input
+            type="radio"
+            id=""
+            class="mr-2"
+            formControlName="in_stock"
+            [value]="false"
+          />
+          <label for="" style="font-size: smaller">Hết hàng</label>
+        </div>
+      </div>
+    </div>
+
+    <button class="w-100 btn bg-blue-500 py-1 text-white text-sm">
+      Update
+    </button>
+  </form>
+</main>
